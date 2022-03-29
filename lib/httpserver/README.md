@@ -1,0 +1,2 @@
+# Package `httpserver`
+Package `httpserver` declares `Server` interface, which abstracts `*fiber.App` and `*gin.Engine` into 2 methods: `SetUpRoutes(*middleware.Config, handler.Adapter)` and `Serve() error`.
