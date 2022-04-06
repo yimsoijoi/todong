@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/artnoi43/todong/internal"
-	"github.com/artnoi43/todong/test"
 	"github.com/gin-gonic/gin"
+	"github.com/yimsoijoi/todong/internal"
+	"github.com/yimsoijoi/todong/test"
 )
 
 func testNewPassword(t *testing.T) {

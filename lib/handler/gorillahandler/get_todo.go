@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/lib/store"
 	"github.com/gorilla/mux"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/lib/store"
 )
 
 func (gr *GorillaHandler) GetTodo(w http.ResponseWriter, r *http.Request) {

@@ -3,7 +3,7 @@ package cachehelper
 import (
 	"fmt"
 
-	"github.com/artnoi43/todong/datamodel"
+	"github.com/yimsoijoi/todong/datamodel"
 )
 
 type TodoKey struct {

@@ -7,8 +7,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/internal"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/internal"
 )
 
 // openAndReadMultipartFile opens and reads *multipart.FileHeader

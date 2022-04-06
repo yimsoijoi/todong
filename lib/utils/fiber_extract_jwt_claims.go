@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/artnoi43/todong/internal"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/pkg/errors"
+	"github.com/yimsoijoi/todong/internal"
 )
 
 func ExtractAndDecodeJwtFiber(c *fiber.Ctx) (*internal.UserInfo, error) {

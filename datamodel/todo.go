@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/artnoi43/todong/enums"
+	"github.com/yimsoijoi/todong/enums"
 )
 
 // Todo represents to-dos data model in SQL databases

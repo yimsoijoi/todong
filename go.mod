@@ -1,4 +1,4 @@
-module github.com/artnoi43/todong
+module github.com/yimsoijoi/todong
 
 go 1.17
 

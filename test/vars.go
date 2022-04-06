@@ -5,7 +5,7 @@ import (
 	"time"
 
 	ginjwt "github.com/appleboy/gin-jwt/v2"
-	"github.com/artnoi43/todong/internal"
+	"github.com/yimsoijoi/todong/internal"
 	"golang.org/x/crypto/bcrypt"
 )
 

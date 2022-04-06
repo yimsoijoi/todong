@@ -7,8 +7,8 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/pkg/errors"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/lib/redishelper"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/lib/redishelper"
 )
 
 type redisDataGateway struct {

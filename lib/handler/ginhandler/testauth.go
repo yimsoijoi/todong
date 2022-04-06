@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/lib/utils"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 func (h *GinHandler) TestAuth(c *gin.Context) {

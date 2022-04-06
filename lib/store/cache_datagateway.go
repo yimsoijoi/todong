@@ -8,8 +8,8 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/lib/cachehelper"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/lib/cachehelper"
 )
 
 var (

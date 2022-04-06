@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/artnoi43/todong/datamodel"
+	"github.com/yimsoijoi/todong/datamodel"
 	"gorm.io/gorm"
 )
 

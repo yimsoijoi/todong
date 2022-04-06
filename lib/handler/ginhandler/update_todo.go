@@ -9,11 +9,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/internal"
-	"github.com/artnoi43/todong/lib/store"
-	"github.com/artnoi43/todong/lib/utils"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/internal"
+	"github.com/yimsoijoi/todong/lib/store"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 // UpdateTodo updates user's datamodel.Todo in database

@@ -10,9 +10,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/test"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/test"
 )
 
 func testCreateTodo(t *testing.T) {

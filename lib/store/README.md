@@ -1,7 +1,7 @@
 # Package `store`
 Package `store` declares interface `DataGateway`, which is a high-level abstraction of data storage.
 
-![DataStoreAbstraction](https://github.com/artnoi43/todong/blob/main/assets/todogin_store.png?raw=true)
+![DataStoreAbstraction](https://github.com/yimsoijoi/todong/blob/main/assets/todogin_store.png?raw=true)
 
 # Interface `DataGateway`
 Both `gormDataGateway` and `redisDataGateway` structs implement `DataGateway`.

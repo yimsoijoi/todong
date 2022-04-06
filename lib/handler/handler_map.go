@@ -6,10 +6,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/handler/fiberhandler"
-	"github.com/artnoi43/todong/lib/handler/ginhandler"
-	"github.com/artnoi43/todong/lib/handler/gorillahandler"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/handler/fiberhandler"
+	"github.com/yimsoijoi/todong/lib/handler/ginhandler"
+	"github.com/yimsoijoi/todong/lib/handler/gorillahandler"
 )
 
 // MapHandlers map ginHandler/fiberHandler methods to some strings from enums.

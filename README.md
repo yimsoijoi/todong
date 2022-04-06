@@ -58,4 +58,4 @@ The string `s` in `Fiber(s)` and `Gin(s)` is used to retrieve corresponding func
 
 ## Architecture
 
-![Abstraction](https://github.com/artnoi43/todong/blob/main/assets/todogin_arch.png?raw=true)
+![Abstraction](https://github.com/yimsoijoi/todong/blob/main/assets/todogin_arch.png?raw=true)

@@ -3,9 +3,9 @@ package fiberserver
 import (
 	"github.com/gofiber/fiber/v2/middleware/logger"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/handler"
-	"github.com/artnoi43/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/handler"
+	"github.com/yimsoijoi/todong/lib/middleware"
 )
 
 func (f *fiberServer) SetUpRoutes(conf *middleware.Config, handler handler.Adaptor) {

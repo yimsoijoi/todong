@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"github.com/artnoi43/todong/internal"
+	"github.com/yimsoijoi/todong/internal"
 )
 
 func ExtractAndDecodeJwt(c *gin.Context) (*internal.UserInfo, error) {

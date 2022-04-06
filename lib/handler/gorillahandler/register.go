@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/internal"
-	"github.com/artnoi43/todong/lib/utils"
 	"github.com/google/uuid"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/internal"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 func (gr *GorillaHandler) Register(w http.ResponseWriter, r *http.Request) {

@@ -3,8 +3,8 @@ package ginhandler
 import (
 	"testing"
 
-	"github.com/artnoi43/todong/lib/middleware"
-	"github.com/artnoi43/todong/lib/store"
+	"github.com/yimsoijoi/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/lib/store"
 )
 
 // Use our manually written store.testDataGateway

@@ -7,10 +7,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/internal"
-	"github.com/artnoi43/todong/lib/utils"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/internal"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 func (h *FiberHandler) Register(c *fiber.Ctx) error {

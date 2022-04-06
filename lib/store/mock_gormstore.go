@@ -5,8 +5,8 @@ package store
 import (
 	"context"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/test"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/test"
 )
 
 type mockStore struct{}

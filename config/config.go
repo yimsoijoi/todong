@@ -7,10 +7,10 @@ import (
 	"github.com/go-yaml/yaml" // For logging
 	"github.com/spf13/viper"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/middleware"
-	"github.com/artnoi43/todong/lib/postgres"
-	"github.com/artnoi43/todong/lib/redisclient"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/lib/postgres"
+	"github.com/yimsoijoi/todong/lib/redisclient"
 )
 
 type Config struct {

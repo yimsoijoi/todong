@@ -1,12 +1,12 @@
 package httpserver
 
 import (
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/handler"
-	"github.com/artnoi43/todong/lib/httpserver/fiberserver"
-	"github.com/artnoi43/todong/lib/httpserver/ginserver"
-	"github.com/artnoi43/todong/lib/httpserver/gorillaserver"
-	"github.com/artnoi43/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/handler"
+	"github.com/yimsoijoi/todong/lib/httpserver/fiberserver"
+	"github.com/yimsoijoi/todong/lib/httpserver/ginserver"
+	"github.com/yimsoijoi/todong/lib/httpserver/gorillaserver"
+	"github.com/yimsoijoi/todong/lib/middleware"
 )
 
 // Server abstracts different web frameworks (e.g. Fiber, Gorilla, and Gin)

@@ -6,10 +6,10 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/store"
-	"github.com/artnoi43/todong/lib/utils"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/store"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 // GetTodo returns []datamodel.Todo for the users.

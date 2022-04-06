@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/test"
+	"github.com/yimsoijoi/todong/test"
 )
 
 func testDeleteTodo(t *testing.T) {

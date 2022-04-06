@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/artnoi43/todong/config"
-	"github.com/artnoi43/todong/lib/handler"
-	"github.com/artnoi43/todong/lib/httpserver"
-	"github.com/artnoi43/todong/lib/store"
+	"github.com/yimsoijoi/todong/config"
+	"github.com/yimsoijoi/todong/lib/handler"
+	"github.com/yimsoijoi/todong/lib/httpserver"
+	"github.com/yimsoijoi/todong/lib/store"
 )
 
 var (

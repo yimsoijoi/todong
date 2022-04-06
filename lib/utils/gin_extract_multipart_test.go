@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/test"
+	"github.com/yimsoijoi/todong/test"
 )
 
 // TODO: key "file" does not work in test because

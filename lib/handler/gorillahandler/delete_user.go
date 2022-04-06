@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/artnoi43/todong/datamodel"
 	"github.com/gorilla/mux"
+	"github.com/yimsoijoi/todong/datamodel"
 )
 
 func (gr *GorillaHandler) DeleteUser(w http.ResponseWriter, r *http.Request) {

@@ -6,11 +6,11 @@ import (
 	"log"
 	"strings"
 
-	"github.com/artnoi43/todong/config"
-	"github.com/artnoi43/todong/datamodel"
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/postgres"
-	"github.com/artnoi43/todong/lib/redisclient"
+	"github.com/yimsoijoi/todong/config"
+	"github.com/yimsoijoi/todong/datamodel"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/postgres"
+	"github.com/yimsoijoi/todong/lib/redisclient"
 )
 
 func Init(conf *config.Config) DataGateway {

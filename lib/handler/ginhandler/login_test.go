@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/artnoi43/todong/internal"
-	"github.com/artnoi43/todong/test"
+	"github.com/yimsoijoi/todong/internal"
+	"github.com/yimsoijoi/todong/test"
 )
 
 // TODO: store.mockStore should returns valid bcrypt-hashed passwords

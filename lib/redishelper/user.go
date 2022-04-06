@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/artnoi43/todong/datamodel"
+	"github.com/yimsoijoi/todong/datamodel"
 )
 
 type UserKey struct {

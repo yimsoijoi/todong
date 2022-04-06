@@ -7,12 +7,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/handler/fiberhandler"
-	"github.com/artnoi43/todong/lib/handler/ginhandler"
-	"github.com/artnoi43/todong/lib/handler/gorillahandler"
-	"github.com/artnoi43/todong/lib/middleware"
-	"github.com/artnoi43/todong/lib/store"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/handler/fiberhandler"
+	"github.com/yimsoijoi/todong/lib/handler/ginhandler"
+	"github.com/yimsoijoi/todong/lib/handler/gorillahandler"
+	"github.com/yimsoijoi/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/lib/store"
 )
 
 // Adapter abstracts handlers of different web frameworks

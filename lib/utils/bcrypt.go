@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/artnoi43/todong/enums"
+	"github.com/yimsoijoi/todong/enums"
 	"golang.org/x/crypto/bcrypt"
 )
 

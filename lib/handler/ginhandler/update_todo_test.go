@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/artnoi43/todong/test"
 	"github.com/gin-gonic/gin"
+	"github.com/yimsoijoi/todong/test"
 )
 
 func testUpdateTodo(t *testing.T) {

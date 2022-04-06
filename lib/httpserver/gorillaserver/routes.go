@@ -3,10 +3,10 @@ package gorillaserver
 import (
 	"net/http"
 
-	"github.com/artnoi43/todong/enums"
-	"github.com/artnoi43/todong/lib/handler"
-	"github.com/artnoi43/todong/lib/middleware"
-	"github.com/artnoi43/todong/lib/utils"
+	"github.com/yimsoijoi/todong/enums"
+	"github.com/yimsoijoi/todong/lib/handler"
+	"github.com/yimsoijoi/todong/lib/middleware"
+	"github.com/yimsoijoi/todong/lib/utils"
 )
 
 func (s *gorillaServer) SetUpRoutes(conf *middleware.Config, h handler.Adaptor) {
