@@ -28,13 +28,13 @@ func init() {
 	if dataGateway == nil {
 		log.Fatalln("nil dataGateway")
 	}
+}
+
+func main() {
 	// Init server and middleware
 	handlerAdaptor := handler.NewAdaptor(conf.Server, dataGateway, &conf.Middleware)
 	server = httpserver.New(conf.Server)
 	server.SetUpRoutes(&conf.Middleware, handlerAdaptor)
-}
-
-func main() {
 	// sigChan is for receiving os.Signal from the host OS.
 	// Graceful shutdowns are tested on macOS and Arch Linux
 	sigChan := make(chan os.Signal, 1)

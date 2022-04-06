@@ -14,7 +14,6 @@ import (
 	"github.com/artnoi43/todong/lib/store"
 	"github.com/artnoi43/todong/lib/utils"
 )
-
 // Login authenticates username/password and return JWT token signed with configured secret
 func (h *FiberHandler) Login(c *fiber.Ctx) error {
 	var req internal.AuthJson

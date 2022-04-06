@@ -32,6 +32,9 @@ func Init(conf *config.Config) DataGateway {
 			log.Fatalln("error: failed to open database:", err.Error())
 		}
 		return NewRedisDataGateway(rd)
+	case enums.Cache:
+		return NewCacheDataGateway()
 	}
+
 	panic(fmt.Sprintf("invalid store config: %s", conf.Store))
 }
